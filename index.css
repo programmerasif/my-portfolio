@@ -2,11 +2,20 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+.header{
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png) , url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+.img{
+    margin-top: 10px;
+}
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 220px;
+    margin: 0px 200px;
+    padding: 50px 0 0 0;
 }
 .text-primary-color{
     color: #FD6E0A;
@@ -45,7 +54,7 @@ nav li{
 /* bannar styl */
 .banner{
     display: flex;
-    margin: 0 220px;
+    margin: 0 200px;
     align-items: center;
 }
 .banner-subtitle{
@@ -80,3 +89,137 @@ margin: 5px 0 20px 0;
 
 }
 
+/* main section  */
+
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+    border-radius: 10px;
+  
+}
+.about{
+    background: #FFF8F3;
+    text-align: center;
+    margin-top: 130px;
+    padding: 140px 130px 120px 180px;
+}
+.section-title{
+
+font-weight: 700;
+font-size: 35px;
+color: #181818;
+height: 48px;
+text-align: center;
+margin-top: 100px;
+margin-bottom: 30px;
+}
+.section-detls{
+height: 120px;
+font-weight: 400;
+font-size: 18px;
+color: #757575;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.s-info{
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200px;
+}
+.info-value{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+ .info-title{
+    font-weight: 400;
+    color: #757575
+ }
+ /* what-to-do style */
+
+ .what-to-do{
+    text-align: center;
+ }
+ .what-to-do-description{
+    max-width: 910px;
+    text-align: center;
+    margin: 0 auto;
+    color: #757575;
+
+}
+/* skill-container styl */
+
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+}
+.skill{
+    background-color: #FFFFFF;
+    max-width: 380px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+
+}
+.skill-title{
+    height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    padding: 30px 0 20px 0;
+}
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color:#757575 ;
+}
+
+/* education and resumi style */
+
+.resumi{
+    margin: 0 auto;
+}
+.education-resumi-section{
+    display: flex;
+    justify-content: space-between;
+}
+.education-title{
+    padding: 130px 0 30px 0;
+}
+.s-education{
+    width: 555px;
+}
+.s-education-title{
+    padding: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.university-title{
+    height: 27px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #757575;
+}
+.university-description{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.border-line{
+    margin-bottom: 30px;
+}
+.btn{
+   text-align: center;
+   margin: 50px 0 112px 0;
+}
