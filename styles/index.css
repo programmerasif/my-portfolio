@@ -10,6 +10,7 @@
 }
 .img{
     margin-top: 10px;
+    
 }
 nav{
     display: flex;
@@ -290,4 +291,90 @@ margin-bottom: 20px;
     border-radius: 5px;
     margin-top: 25px;
     margin-bottom: 160px;
+}
+
+
+.hidden{
+    display: none;
+}
+
+/* responsive styls */
+
+@media screen and (max-width:576px){
+    .skills-container,.education-resumi-section {
+        flex-direction: column;
+    }
+    .what-to-do-description{
+        padding: 0 10px;
+    }
+    .education-section, .resume-section{
+        margin-left: 20px;
+    }
+    .s-education{
+        max-width: 90%;
+        
+    }
+    .contract{
+        
+        max-height: 100%;
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .input-styl{
+        width: 100%;
+    }
+    .about{
+        padding: 5px;
+        width: 100%;
+    }
+    .info{
+        margin-top: 94px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .s-info {
+        
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        padding: 50px 0 0 0;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: flex-start;
+        margin: 0 0 0 15px;
+    }
+    .banner-title {
+        font-weight: 700;
+        font-size: 38px;
+        height: 100%;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-detls {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    .banner-title{
+        padding-left: 20px; 
+    }
+    .btn-primary{
+        margin-top: 30px;
+    }
+    .remove{
+        display: none;
+    }
 }
