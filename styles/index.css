@@ -340,6 +340,7 @@ margin-bottom: 20px;
     }
     .banner {
         flex-direction: column;
+        margin: 0px 190px;
     }
     nav ul {
         display: flex;
